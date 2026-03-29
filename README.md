@@ -1,6 +1,11 @@
 # Open Llama Factory
 
-An autonomous AI coding agent that uses a local llama.cpp server to generate, test, and debug Python software automatically.
+An AI-based autonomous programming agent that uses a local llama.cpp server to automatically generate, test, and debug Python software.
+
+The project was born for study and fun; I want to share it to help it grow.
+The concept arose from the problem of being unable to find a **free** code generation agent that works well with llama.cpp.
+This software was created to solve this problem.
+The software works, but it's still rough and needs improvement.
 
 ## Features
 
@@ -176,14 +181,25 @@ Ensure your llama.cpp server is running:
 
 ### Infinite loop in debugging
 
-OpenLlama limits debug iterations to 10 by default. If code keeps failing:
+**Open Llama Factory** limits debug iterations to 10 by default. If code keeps failing:
 - Review the generated code manually
 - Simplify your prompt
 - Break down complex tasks into smaller prompts
 
 ## License
+**Open LLAMA Factory** is free software: you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
 
-MIT License - See LICENSE file for details.
+**Open LLAMA Factory** is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see
+<http://www.gnu.org/licenses/>.
 
 ## Contributing
 
