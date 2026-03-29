@@ -1,4 +1,4 @@
-# OpenLlama
+# Open Llama Factory
 
 An autonomous AI coding agent that uses a local llama.cpp server to generate, test, and debug Python software automatically.
 
