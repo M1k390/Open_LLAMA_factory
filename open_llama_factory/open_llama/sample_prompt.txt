@@ -1,0 +1,7 @@
+Create a simple Python module called calculator with the following functions:
+- add(a: float, b: float) -> float: returns a + b
+- subtract(a: float, b: float) -> float: returns a - b
+- multiply(a: float, b: float) -> float: returns a * b
+- divide(a: float, b: float) -> float: returns a / b, raises ValueError if b is 0
+
+Include a main function that demonstrates all operations.
